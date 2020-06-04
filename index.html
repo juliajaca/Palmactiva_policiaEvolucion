@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css" />    
     
     <!-- Nuestro CSS Compilado a través de SASS ó sin compilar solo CSS básico -->
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/estilos.css" />
     
   </head>
@@ -48,29 +49,26 @@
 
            <figure id="logo">
   
-                <img src="" alt="">
-                <figcaption></figcaption>
+                <img src="_assets/img/desktop/@1x/policia.png" alt="logo_policia">
+                <figcaption> POLICIA NACIONAL</figcaption>
 
            </figure>
 
     </header>
 
     <main>
-
-      
-          <section>
-
-          
-          </section>
-      
-          <article>
-
-          </article>
-      
+      <section id= "inputs">
+        <input type="text" name="nombre" id="nombre" placeholder="NOMBRE">
+        <input type="text" name="dni" id="dni" placeholder="DNI">
+      </section>
+      <button id="submit">comprobar</button>
+      <h3 >Resultado: <strong id="comprobacion"></strong>
+      </h3>
     </main>
 
     <footer>
 
     </footer>
+    <script src="js/dni.js"></script>
   </body>
 </html>
